@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Coverground1
   m_Shader: {fileID: 4800000, guid: 3d5c95730dfaead4db1c6ee4e3aa3c3b, type: 3}
@@ -30,7 +30,7 @@ Material:
     - _Cutoff: 0.7089552
     - _Shininess: 0.078125
     m_Colors:
-    - _Color: {r: 1, g: 0.5568628, b: 0, a: 1}
+    - _Color: {r: 0.998996, g: 1, b: 0, a: 1}
     - _SpecColor: {r: 0.3383391, g: 0.3432836, b: 0.3279127, a: 0}
 --- !u!1002 &2100001
 EditorExtensionImpl:
