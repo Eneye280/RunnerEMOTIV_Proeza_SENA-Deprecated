@@ -26,9 +26,16 @@ public class Login : MonoBehaviour
 		inputField.placeholder.GetComponent<Text>().font = fuente;
 		inputField.placeholder.GetComponent<Text>().color = Color.black;
 	}
-	private void Update()
+
+	/// <summary>
+	/// Update is called every frame, if the MonoBehaviour is enabled.
+	/// </summary>
+	void Update()
 	{
-		
+		if(enableDisable[1].activeSelf)
+		{
+			
+		}
 	}
 	public void Play () 
 	{
