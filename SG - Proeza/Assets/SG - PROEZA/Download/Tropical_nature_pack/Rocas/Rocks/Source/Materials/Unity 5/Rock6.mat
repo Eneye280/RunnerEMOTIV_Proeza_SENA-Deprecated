@@ -12,7 +12,7 @@ Material:
     _MASKMAP _METALLICGLOSSMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE _PARALLAXMAP _PIXEL_DISPLACEMENT
     _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _SPECGLOSSMAP
   m_LightmapFlags: 6
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
