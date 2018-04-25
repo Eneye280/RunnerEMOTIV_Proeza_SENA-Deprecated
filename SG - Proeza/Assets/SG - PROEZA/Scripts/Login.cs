@@ -9,7 +9,7 @@ public class Login : MonoBehaviour
 	[SerializeField] private InputField inputField;
 	[SerializeField] public Text textNombre;
 	[SerializeField] public Font fuente;
-	[SerializeField] private GameObject[] enableDisable;
+	[SerializeField] internal GameObject[] enableDisable;
 
    	[HideInInspector] private string nombreInicial = "Ingrese su Nombre";
 

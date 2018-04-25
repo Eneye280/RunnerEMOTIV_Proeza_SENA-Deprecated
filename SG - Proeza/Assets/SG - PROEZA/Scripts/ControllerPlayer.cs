@@ -5,11 +5,15 @@ using UnityEngine;
 public class ControllerPlayer : MonoBehaviour 
 {
 	[SerializeField] private float velocidad;
-	void Update () 
+	[SerializeField] private GameObject parallax;
+	private void Update () 
 	{
-		float vertical = Input.GetAxis("Vertical") * velocidad * Time.deltaTime;
-		float horizontal = Input.GetAxis("Horizontal") * velocidad * Time.deltaTime;
+		Parallax();
+	}
 
-		transform.Translate(horizontal,0,vertical);
+	private void Parallax()
+	{
+		if(Login.login.enableDisable[1].activeSelf)
+			parallax.transform.Translate(-Vector3.forward * velocidad * Time.deltaTime);
 	}
 }
