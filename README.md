@@ -1,5 +1,6 @@
 # Serious-Game
 Entrenamiento con BCI es un proyecto que tiene como objetivo diseñar y desarrollar un software de serious game que permite interpretar señales electroencefalográficas (EEG) como comandos de control en el juego. El proyecto está formado por un sistema (dispositivo de adquisición de señales EEG - serious game). 
+
 Fase 1
 
 Calibración: El sistema registra señales EEG e identifica patrones, los cuales son guardados y asociados a la generación de diferentes acciones de control que permiten la manipulación de una mano virtual (diseñada con la técnica de fotogrametría). La calibración permite al usuario adaptarse a la plataforma del juego e identificar las acciones que serán representadas por este.
