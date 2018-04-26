@@ -33,7 +33,7 @@ MonoBehaviour:
     m_Settings:
       method: 0
       fxaaSettings:
-        preset: 3
+        preset: 1
       taaSettings:
         jitterSpread: 0.75
         sharpen: 0.3
@@ -44,7 +44,7 @@ MonoBehaviour:
     m_Settings:
       intensity: 0.5
       radius: 0.3
-      sampleCount: 16
+      sampleCount: 10
       downsampling: 1
       forceForwardCompatibility: 1
       ambientOnly: 0
@@ -69,11 +69,11 @@ MonoBehaviour:
       screenEdgeMask:
         intensity: 0.03
   depthOfField:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       focusDistance: 10
       aperture: 5.6
-      focalLength: 1
+      focalLength: 50
       useCameraFov: 0
       kernelSize: 1
   motionBlur:
@@ -92,7 +92,7 @@ MonoBehaviour:
       keyValue: 0.25
       dynamicKeyValue: 1
       adaptationType: 0
-      speedUp: 2
+      speedUp: 5
       speedDown: 1
       logMin: -8
       logMax: 4
@@ -100,7 +100,7 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 0.5
+        intensity: 6
         threshold: 1.1
         softKnee: 0.5
         radius: 4
@@ -134,9 +134,9 @@ MonoBehaviour:
       colorWheels:
         mode: 1
         log:
-          slope: {r: 0.6934552, g: 0.5771392, b: 1, a: 0}
-          power: {r: 0.7986868, g: 1, b: 0.79391474, a: 0}
-          offset: {r: 0.66005147, g: 0.64685977, b: 1, a: 0}
+          slope: {r: 0.7126218, g: 1, b: 0.6523105, a: 0}
+          power: {r: 1, g: 0.8599976, b: 0.7615284, a: 0}
+          offset: {r: 0.947258, g: 1, b: 0.8945152, a: 0}
         linear:
           lift: {r: 1, g: 1, b: 1, a: 0}
           gamma: {r: 1, g: 1, b: 1, a: 0}
